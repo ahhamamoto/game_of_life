@@ -5,6 +5,7 @@
         <meta charset='utf-8' />
         <meta name="description" content="Game of life : Conway's Game of Life implemented in javascript using HTML5 canvas." />
         <link rel="stylesheet" type="text/css" href="./stylesheets/style.css" media="screen" />
+        <script type="text/javascript" src="./javascript/game_of_life.js"></script>
         <title>Game of life</title>
     </head>
 
@@ -14,19 +15,17 @@
         <br>
 
         <div class="canvas">
-            <canvas id="gof" width="900" height="450"></canvas>
+            <canvas id="gof" width="840" height="420"></canvas>
         </div>
 
         <div class="options">
 
-            <button onclick="buttonPressed();">Option1</button>
-            <button onclick="buttonPressed();">Option2</button>
-            <button onclick="buttonPressed();">Option3</button>
+            <button onclick="blackAndWhite();">Color grid with black and white</button>
+            <button onclick="clearGrid();">Clear grid</button>
+            <button onclick="drawGrid();">Draw grid</button>
             <button onclick="buttonPressed();">Option4</button>
 
         </div>
-
-        <script type="text/javascript" src="./javascript/game_of_life.js"></script>
 
     </body>
 </html>
