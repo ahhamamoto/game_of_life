@@ -1,11 +1,28 @@
 body {
     background-color: #ccc;
     width: 960px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1 {
+h1, h2, h3, canvas {
     text-align: center;
+}
+
+canvas {
+    background-color: #000;
+    display: block;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.options {
+    padding: 30px;
 }
